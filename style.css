@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  padding: 15rem;
+  color: yellow;
+  background-color: rgb(12, 33, 12);
+}
+.d1{
+  text-align: end;
+  border: solid white 3px;
+  border-radius: 1rem;
+  padding: 2rem;
+  position: relative;
+  min-height: 30vh;
+}
+.d2{
+  text-align: end;
+  border: solid white 3px;
+  border-radius: 1rem;
+  padding: 2rem; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  width: 50%;
+}
