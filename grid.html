@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+      body{
+        padding: 15rem;
+      }
+      .contain{
+        border: solid black 3px;
+        height: 600px;
+        width: 600px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr); 
+        padding: 2rem;
+        place-items: center;
+      }
+      .contain div{
+        height: 200px;
+        width: 100px;
+        display: flex;
+        border: solid black 3px;
+        justify-content: center;
+        align-items: center;
+      }
+  </style>
+</head>
+<body>
+  <div class="contain">
+    <div><p>A</p></div>
+    <div><p>B</p></div>
+    <div><p>C</p></div>
+    <div><p>D</p></div>
+  </div>
+</body>
+</html>
